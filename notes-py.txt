@@ -1,0 +1,19 @@
+#while loop and password studies
+
+while True:
+    print('who are you?')
+    name = input()
+    if name != 'kama':
+        continue
+    print('hello, Kama. What is the password? (It is a noble phantasm.)')
+    password = input()
+    if password == 'samsara kama':
+        break
+print('ACCESS GRANTED')
+
+
+#next
+#simple loop printing a name five times
+print('my name is')
+for i in range(5):#times in a 'i' range into 5
+    print('Kama Five Times (' + str(i) + ')')
